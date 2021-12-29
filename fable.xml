@@ -32,9 +32,44 @@
   </agent>
   </page>
     
-  <page background='parque.png'>
-  <agent img='0- doge.png' x='100' y='100' width='100' height='200'/>
+  <page background='Parque.png'>
+  <agent img='0- Doge.png' x='20' y='10' width='110' height='220'/>
+  <agent text='Ar fresco é ótimo, não é mesmo?' x='20' y='250' width='180' color='white' on-touch='texto1'>
+  <texto1 text='Por que nós não- esqueci oque eu ia falar..' on-touch='texto2'/>
+  <texto2 text='Por que você não clica naquele botão para me ajudar a lembrar?'/>
+  </agent> 
+  <agent img='placa-pagina.png' x='400' y='0' width='100' height='50' on-touch='_NEXT_PAGE'/>
+  <agent img='placa-mapa.png' x='300' y='100' width='100' height='140'/>
+  <agent img='1 - lil bro.png' x='135' y='125' width='25' height='45'/>
+  <agent img='1 - karen.png' x='170' y='125' width='40' height='80'/>
   </page>
   
+  <page background='Parque.png'>
+  <agent img='0- Doge.png' x='20' y='10' width='110' height='220'/>
+  <agent text='Ah, sim! Lembrei!' x='20' y='250' width='180' color='white' on-touch='texto1'>
+  <texto1 text='Por que nós não vamos para algum lugar na cidade?' on-touch='texto2'/>
+  <texto2 text='Hmm.. acho que você precisa clicar no botão de novo'/>
+  </agent> 
+  <agent text='Mamãe, com quem ele está falando?' x='180' y='210' width='80' font-size='12' color='yellow'/>
+  <agent img='placa-pagina.png' x='400' y='0' width='100' height='50' on-touch='_NEXT_PAGE'/>
+  <agent img='placa-mapa.png' x='300' y='100' width='100' height='140'/>
+  <agent img='1 - lil bro.png' x='135' y='125' width='25' height='45'/>
+  <agent img='1 - karen.png' x='170' y='125' width='40' height='80'/>
+  </page>
   
+  <page background='Parque.png'>
+  <agent img='0- Doge.png' x='20' y='10' width='110' height='220'/>
+  <agent text='Já sei!' x='20' y='250' width='180' color='white' on-touch='texto1'>
+  <texto1 text='Vamos olhar aquela mapa naquela placa' on-touch='texto2'/>
+  <texto2 text='Clique lá na placa, por favor!'/>
+  </agent> 
+  <agent text='Não sei, deve ser um doido, não chegue perto' x='180' y='210' width='120' font-size='12' color='yellow'/>
+  <agent img='placa-mapa.png' x='300' y='100' width='100' height='140' on-touch='_NEXT_PAGE'/>
+  <agent img='1 - lil bro.png' x='135' y='125' width='25' height='45'/>
+  <agent img='1 - karen.png' x='170' y='125' width='40' height='80'/>
+  </page>
+  
+  <page background='Parque.png'>
+  <agent img='0- Doge.png' x='20' y='10' width='110' height='220'/>
+  </page>
 </fable>
