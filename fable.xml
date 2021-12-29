@@ -143,7 +143,7 @@
     <final1 text='AGORA SOU EU QUEM VAI MANTER VOCÊ PRESO!' y='340' on-touch='final2'/>
     <final2 text='ETERNAMENTE!' on-touch='final2'/>
   </agent>
-  <agent text='Você perdeu!' x='0' y='20' color='white' font-size='20' on-touch='_GOTO_PAGE:1'/>
+  <agent text='Você perdeu!' x='5' y='20' color='white' font-size='20' on-touch='_GOTO_PAGE:1'/>
   </page>
   
 </fable>
