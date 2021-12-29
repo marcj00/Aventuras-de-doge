@@ -60,7 +60,7 @@
   <page background='Parque.png'>
   <agent img='0- Doge.png' x='20' y='10' width='110' height='220'/>
   <agent text='Já sei!' x='20' y='250' width='180' color='white' on-touch='texto1'>
-  <texto1 text='Vamos olhar aquela mapa naquela placa' on-touch='texto2'/>
+  <texto1 text='Vamos olhar aquele mapa naquela placa' on-touch='texto2'/>
   <texto2 text='Clique lá na placa, por favor!'/>
   </agent> 
   <agent text='Não sei, deve ser um doido, não chegue perto' x='180' y='210' width='120' font-size='12' color='yellow'/>
@@ -69,7 +69,41 @@
   <agent img='1 - karen.png' x='170' y='125' width='40' height='80'/>
   </page>
   
-  <page background='Parque.png'>
-  <agent img='0- Doge.png' x='20' y='10' width='110' height='220'/>
+  <page background='SCP-map.png'>
+  <agent img='0- Doge.png' x='5' y='0' width='110' height='220'/>
+  <agent text='Haha, olha que estranho, o mapa da placa não mostra a cidade' x='5' y='230' width='180' on-touch='texto1'>
+    <texto1 text='Que coisa, não?' on-touch='texto2'/>
+  	<texto2 text='Emfim, parece um lugar legal' on-touch='texto3'/>
+    <texto3 text='Por que não vamos lá? Clique lá no ícone'/>
+  </agent>
+  <agent img='scp-logo.png' x='350' y='250' width='150' height='100' on-touch='_NEXT_PAGE'/>
   </page>
-</fable>
+  
+  <page background='SCP-entrada.png'>
+  <agent img='0- Doge.png' x='10' y='0' width='100' height='160'/>
+
+  <agent text='que?' x='10' y='180' width='160' color='white' on-touch='doge1'>
+    <doge1 text='Você fez alguma coisa?' on-touch='doge2'/>
+    <doge2 text='Como assim Thaumiel? É você?' on-touch='doge3'/>
+  </agent>
+    
+  <agent text='AVISO: Uma entidade escapou de seu aprisionamento' x='50' y='400' font-size='25' color='yellow' on-touch='texto1'>
+    <texto1 text='A entidade não catalogada é conhecida como Doge' on-touch='texto2'/>
+    <texto2 text='Entidade de classe: Keter' on-touch='texto3'/>
+    <texto3 text='Entidade de Classe Thaumiel aperte o botão'/>
+  </agent>
+
+
+  <agent img='placa-pagina.png' x='400' y='0' width='100' height='50' on-touch='_NEXT_PAGE'/>
+  </page>
+  
+  <page background='SCP-entrada.png'>
+  <agent img='be afraid.png' x='50' y='10' width='300' height='350' on-touch=''/>
+  <agent text='VOCÊ ME TRAIU!' x='50' y='20' font-size='25' color='red'/>
+    
+  <agent text='Entidade Thaumiel aperte o botão agora!' x='50' y='400' font-size='25' color='yellow'/>
+  <agent img='placa-pagina.png' x='400' y='0' width='100' height='50' on-touch='_NEXT_PAGE'/>
+  
+  
+  </page>
+  
