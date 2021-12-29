@@ -1,11 +1,13 @@
 <fable>
   
 	<page background='doge-original.png'>
+
   <agent text='Clique aqui para iniciar!' x='110' y='100' color='black' font-size='22' on-touch='_NEXT_PAGE'/>
     
   </page>
   
   <page background='Quarto-vazio.jpg'>
+
   <agent img='placa-pagina.png' x='400' y='0' width='100' height='50' on-touch='_NEXT_PAGE'/>
   <agent img='cama.png' x='30' y='20' width='220' height='200'/>
   <agent img='0- Doge.png' x='60' y='85' width='100' height='200'/>
@@ -19,9 +21,11 @@
     <texto6 text='Esse texto é clicavel, mas não é aqui que você deve clicar' on-touch='texto7'/>
     <texto7 text='Vou tornar esse texto não-clicavel para lhe ajudar'/>
   </agent>
+
   </page>
   
   <page background='Quarto-vazio.jpg'>
+
   <agent img='cama.png' x='30' y='20' width='220' height='200'/>
   <agent img='0- Doge.png' x='60' y='85' width='100' height='200'/>
   <agent img='porta-fechada.png' x='250' y='70' width='160' height='300' drop-zone='abrir'>
@@ -30,9 +34,11 @@
   <agent text='Use as chaves na porta' x='50' y='300' width='180' on-touch='texto1'/>
   <agent img='chaves.png' x='400' y='10' width='50' height='50' draggable='True' on-drop='abrir'>  
   </agent>
+
   </page>
     
   <page background='Parque.png'>
+
   <agent img='0- Doge.png' x='20' y='10' width='110' height='220'/>
   <agent text='Ar fresco é ótimo, não é mesmo?' x='20' y='250' width='180' color='white' on-touch='texto1'>
   <texto1 text='Por que nós não- esqueci oque eu ia falar..' on-touch='texto2'/>
@@ -42,9 +48,11 @@
   <agent img='placa-mapa.png' x='300' y='100' width='100' height='140'/>
   <agent img='1 - lil bro.png' x='135' y='125' width='25' height='45'/>
   <agent img='1 - karen.png' x='170' y='125' width='40' height='80'/>
+
   </page>
   
   <page background='Parque.png'>
+
   <agent img='0- Doge.png' x='20' y='10' width='110' height='220'/>
   <agent text='Ah, sim! Lembrei!' x='20' y='250' width='180' color='white' on-touch='texto1'>
   <texto1 text='Por que nós não vamos para algum lugar na cidade?' on-touch='texto2'/>
@@ -55,9 +63,11 @@
   <agent img='placa-mapa.png' x='300' y='100' width='100' height='140'/>
   <agent img='1 - lil bro.png' x='135' y='125' width='25' height='45'/>
   <agent img='1 - karen.png' x='170' y='125' width='40' height='80'/>
+
   </page>
   
   <page background='Parque.png'>
+
   <agent img='0- Doge.png' x='20' y='10' width='110' height='220'/>
   <agent text='Já sei!' x='20' y='250' width='180' color='white' on-touch='texto1'>
   <texto1 text='Vamos olhar aquele mapa naquela placa' on-touch='texto2'/>
@@ -67,9 +77,11 @@
   <agent img='placa-mapa.png' x='300' y='100' width='100' height='140' on-touch='_NEXT_PAGE'/>
   <agent img='1 - lil bro.png' x='135' y='125' width='25' height='45'/>
   <agent img='1 - karen.png' x='170' y='125' width='40' height='80'/>
+
   </page>
   
   <page background='SCP-map.png'>
+
   <agent img='0- Doge.png' x='5' y='0' width='110' height='220'/>
   <agent text='Haha, olha que estranho, o mapa da placa não mostra a cidade' x='5' y='230' width='180' on-touch='texto1'>
     <texto1 text='Que coisa, não?' on-touch='texto2'/>
@@ -77,9 +89,11 @@
     <texto3 text='Por que não vamos lá? Clique lá no ícone'/>
   </agent>
   <agent img='scp-logo.png' x='350' y='250' width='150' height='100' on-touch='_NEXT_PAGE'/>
+
   </page>
   
   <page background='SCP-entrada.png'>
+
   <agent img='0- Doge.png' x='10' y='0' width='100' height='160'/>
 
   <agent text='que?' x='10' y='180' width='160' color='white' on-touch='doge1'>
@@ -95,15 +109,41 @@
 
 
   <agent img='placa-pagina.png' x='400' y='0' width='100' height='50' on-touch='_NEXT_PAGE'/>
+
   </page>
   
   <page background='SCP-entrada.png'>
-  <agent img='be afraid.png' x='50' y='10' width='300' height='350' on-touch=''/>
+
+  <agent img='be afraid.png' x='50' y='10' width='300' height='350' on-touch='_GOTO_PAGE:11'/>
   <agent text='VOCÊ ME TRAIU!' x='50' y='20' font-size='25' color='red'/>
     
   <agent text='Entidade Thaumiel aperte o botão agora!' x='50' y='400' font-size='25' color='yellow'/>
   <agent img='placa-pagina.png' x='400' y='0' width='100' height='50' on-touch='_NEXT_PAGE'/>
   
-  
   </page>
   
+  <page background='SCP-entrada.png'>
+  <agent img='scp-doge.png' x='220' y='1' width='300' height='350'/>
+  <agent img='scp-doge1.png' x='30' y='10' width='200' height='250'/>
+  <agent text='Obrigado, você nos ajudou a conter aquela abominação' x='300' y='370' width='180' color='white' on-touch='texto1'>
+    <texto1 text='Mas seu trabalho ainda não terminou' on-touch='texto2'/>
+    <texto2 text='Aquela entidade irá se libertar se não estiver em um loop' on-touch='texto3'/>
+    <texto3 text='Então reinicie usando o botão e mantenha-o ocupado' on-touch='texto4'/>
+    <texto4 text='Não se preocupe ele não deve descobrir' on-touch='texto5'/>
+    <texto5 text='Agora use o botão e mantenha-o preso'/>
+  </agent>
+  <agent text='Boa sorte no proximo loop' x='30' y='15' width='50'/>
+  <agent img='placa-pagina.png' x='400' y='0' width='100' height='50' on-touch='_GOTO_PAGE:3'/>
+    
+  </page>
+  
+  <page background='fundo-preto.png'>
+  <agent img='be afraid.png' x='180' y='150' width='300' height='350' />
+  <agent text='FINALMENTE EU PEGUEI VOCÊ!' x='100' y='370' width='200' color='red' font-size='30' on-touch='final1'>
+    <final1 text='AGORA SOU EU QUEM VAI MANTER VOCÊ PRESO!' y='340' on-touch='final2'/>
+    <final2 text='ETERNAMENTE!' on-touch='final2'/>
+  </agent>
+  <agent text='Você perdeu!' x='0' y='20' color='white' font-size='20' on-touch='_GOTO_PAGE:1'/>
+  </page>
+  
+</fable>
