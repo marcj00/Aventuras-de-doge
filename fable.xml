@@ -1,12 +1,13 @@
 <fable>
   
-	<page background='doge-original.png'>
+	<page background='doge-original.png' soundtrack='Menu.wav'>
 
   <agent text='Clique aqui para iniciar!' x='110' y='100' color='black' font-size='22' on-touch='_NEXT_PAGE'/>
-    
+  <agent text='Aviso: Clique nas falas em cada página antes de prosseguir' x='10' y='30'/>
+  <agent text='Aviso de som: Diminua o volume, proteja seus ouvidos!' x='10' y='10'/>
   </page>
   
-  <page background='Quarto-vazio.jpg'>
+  <page background='Quarto-vazio.jpg' soundtrack='quarto.wav'>
 
   <agent img='placa-pagina.png' x='400' y='0' width='100' height='50' on-touch='_NEXT_PAGE'/>
   <agent img='cama.png' x='30' y='20' width='220' height='200'/>
@@ -24,7 +25,7 @@
 
   </page>
   
-  <page background='Quarto-vazio.jpg'>
+  <page background='Quarto-vazio.jpg' soundtrack='quarto.wav'>
 
   <agent img='cama.png' x='30' y='20' width='220' height='200'/>
   <agent img='0- Doge.png' x='60' y='85' width='100' height='200'/>
@@ -37,7 +38,7 @@
 
   </page>
     
-  <page background='Parque.png'>
+  <page background='Parque.png' soundtrack='parque.wav'>
 
   <agent img='0- Doge.png' x='20' y='10' width='110' height='220'/>
   <agent text='Ar fresco é ótimo, não é mesmo?' x='20' y='250' width='180' color='white' on-touch='texto1'>
@@ -51,7 +52,7 @@
 
   </page>
   
-  <page background='Parque.png'>
+  <page background='Parque.png' soundtrack='parque.wav'>
 
   <agent img='0- Doge.png' x='20' y='10' width='110' height='220'/>
   <agent text='Ah, sim! Lembrei!' x='20' y='250' width='180' color='white' on-touch='texto1'>
@@ -66,7 +67,7 @@
 
   </page>
   
-  <page background='Parque.png'>
+  <page background='Parque.png' soundtrack='parque.wav'>
 
   <agent img='0- Doge.png' x='20' y='10' width='110' height='220'/>
   <agent text='Já sei!' x='20' y='250' width='180' color='white' on-touch='texto1'>
@@ -80,7 +81,7 @@
 
   </page>
   
-  <page background='SCP-map.png'>
+  <page background='SCP-map.png' soundtrack='mapa.wav'>
 
   <agent img='0- Doge.png' x='5' y='0' width='110' height='220'/>
   <agent text='Haha, olha que estranho, o mapa da placa não mostra a cidade' x='5' y='230' width='180' on-touch='texto1'>
@@ -92,7 +93,7 @@
 
   </page>
   
-  <page background='SCP-entrada.png'>
+  <page background='SCP-entrada.png' soundtrack='scp-entrada1.wav'>
 
   <agent img='0- Doge.png' x='10' y='0' width='100' height='160'/>
 
@@ -112,7 +113,7 @@
 
   </page>
   
-  <page background='SCP-entrada.png'>
+  <page background='SCP-entrada.png' soundtrack='scp-entrada1.wav'>
 
   <agent img='be afraid.png' x='50' y='10' width='300' height='350' on-touch='_GOTO_PAGE:11'/>
   <agent text='VOCÊ ME TRAIU!' x='50' y='20' font-size='25' color='red'/>
@@ -122,7 +123,7 @@
   
   </page>
   
-  <page background='SCP-entrada.png'>
+  <page background='SCP-entrada.png' soundtrack='final0.wav'>
   <agent img='scp-doge.png' x='220' y='1' width='300' height='350'/>
   <agent img='scp-doge1.png' x='30' y='10' width='200' height='250'/>
   <agent text='Obrigado, você nos ajudou a conter aquela abominação' x='300' y='370' width='180' color='white' on-touch='texto1'>
@@ -133,11 +134,11 @@
     <texto5 text='Agora use o botão e mantenha-o preso'/>
   </agent>
   <agent text='Boa sorte no proximo loop' x='30' y='15' width='50'/>
-  <agent img='placa-pagina.png' x='400' y='0' width='100' height='50' on-touch='_GOTO_PAGE:3'/>
+  <agent img='placa-pagina.png' x='400' y='0' width='100' height='50' on-touch='_GOTO_PAGE:2'/>
     
   </page>
   
-  <page background='fundo-preto.png'>
+  <page background='fundo-preto.png' soundtrack='final.wav'>
   <agent img='be afraid.png' x='180' y='150' width='300' height='350' />
   <agent text='FINALMENTE EU PEGUEI VOCÊ!' x='100' y='370' width='200' color='red' font-size='30' on-touch='final1'>
     <final1 text='AGORA SOU EU QUEM VAI MANTER VOCÊ PRESO!' y='340' on-touch='final2'/>
