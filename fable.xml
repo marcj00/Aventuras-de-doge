@@ -1,6 +1,6 @@
 <fable>
   
-	<page background='doge-original.png' soundtrack='Menu.wav'>
+  <page background='doge-original.png' soundtrack='Menu.wav'>
 
   <agent text='Clique aqui para iniciar!' x='110' y='100' color='black' font-size='22' on-touch='_NEXT_PAGE'/>
   <agent text='Aviso: Clique nas falas em cada página antes de prosseguir' x='10' y='30'/>
