@@ -30,13 +30,11 @@
   <agent text='Use as chaves na porta' x='50' y='300' width='180' on-touch='texto1'/>
   <agent img='chaves.png' x='400' y='10' width='50' height='50' draggable='True' on-drop='abrir'>  
   </agent>
-  
+  </page>
     
   <page background='parque.png'>
-    
+  <agent img='0- doge.png' x='100' y='100' width='100' height='200'/>
   </page>
   
-    
-  </page>
   
 </fable>
